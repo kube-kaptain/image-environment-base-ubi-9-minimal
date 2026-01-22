@@ -20,7 +20,6 @@ RUN microdnf update -y
 RUN microdnf install \
     bind-utils \
     ca-certificates \
-    curl \
     iputils \
     nmap-ncat \
     procps-ng \
