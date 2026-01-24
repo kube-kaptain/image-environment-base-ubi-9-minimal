@@ -18,6 +18,7 @@ LABEL base.docker.image.name="${DockerImageName}"
 # Install necessary tools and update packages
 RUN microdnf update -y
 RUN microdnf install \
+    age \
     bind-utils \
     ca-certificates \
     iputils \
