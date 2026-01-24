@@ -25,6 +25,7 @@ RUN microdnf install \
     iputils \
     nmap-ncat \
     procps-ng \
+    tar \
     time \
     -y --nodocs
 RUN microdnf clean all
