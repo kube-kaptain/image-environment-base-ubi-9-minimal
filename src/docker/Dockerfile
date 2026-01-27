@@ -22,12 +22,15 @@ RUN microdnf update -y
 RUN microdnf install \
     bind-utils \
     ca-certificates \
+    diffutils \
     gzip \
     iputils \
     nmap-ncat \
+    openssl \
     procps-ng \
     tar \
     time \
+    which \
     -y --nodocs
 RUN microdnf clean all
 
