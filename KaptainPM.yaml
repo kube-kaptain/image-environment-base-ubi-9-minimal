@@ -1,0 +1,8 @@
+apiVersion: kaptain.org/1.11
+kind: docker-build-dockerfile
+metadata:
+  description: "Red Hat UBI 9 minimal environment base image"
+
+spec:
+  layers:
+    - layerset-image-environment-base:[1.2,2.0)
