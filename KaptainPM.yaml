@@ -1,4 +1,4 @@
-apiVersion: kaptain.org/1.11
+apiVersion: kaptain.org/1.31
 kind: docker-build-dockerfile
 metadata:
   description: "Red Hat UBI 9 minimal environment base image"
